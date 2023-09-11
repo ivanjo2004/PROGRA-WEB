@@ -1,0 +1,11 @@
+body{background-color:silver;}
+p{color:rgb(155, 111, 111);}
+p{border:1px solid black;
+margin-top:40px; margin-bottom: 40px;
+padding-top:20px; padding-bottom: 2Opx;
+margin-left: 40px; margin-right: 120px;}
+#LogoMB{position: fixed;bottom: 0;right: 0;width: 100px;border:1px solid black ;}
+#a200{width: 1300px;}
+#chata{width: 1300px;}
+#glc{width: 1300px;}
+h2{font-family: "Times New Roman", Times, monospace;}
