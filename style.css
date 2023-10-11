@@ -3,45 +3,55 @@ p{color:rgb(0, 0, 0);}
 p{border:1px solid black;
 margin-top:40px; margin-bottom: 40px;
 padding-top:20px; padding-bottom: 2Opx;
-margin-left: 40px; margin-right: 120px;}
-#LogoWP{position: fixed;bottom: 0;right: 0;width: 100px;border:1px solid black ;}
-#a200{width: 1438px;}
+margin-left: 40px; margin-right: 120px;
+max-width: 100%; height:auto}
+#LogoWP{position: fixed;bottom: 0;right: 0;width: 90px;margin:10px; max-width: calc(100%-10px);max-height: calc(100%-10px);}
+#a200{width: 1438px; max-width: 100%; height: auto;}
 #chata{width: 479px; right:100; justify-content: flex-start;}
 #chata2{width:479px;justify-content: flex-end;}
 
-#glc{width: 1438px;}
+#glc{width: 1438px;max-width: 100%; height: auto;}
 p{font-family: "Times New Roman", Times, monospace;}
-p{font-size: 20px;}
+p{font-size: 20px; max-width: 100%;height: auto;}
 h2{font-family: "Arial";}
 h2{font-size: 30px;}
 li{font-style: italic;}
-h1{font-size: 90px;}
+h1{font-size: 500%;}
 h1{font-weight: bold;}
 h1{text-align: center;}
 p{display: inline-block;}
 #parrafo1{color: beige;text-align: center;}
-#LogoMB{bottom: 100;right: 100;width: 250px;}
+#LogoMB{bottom: 100;right: 100;width: 250px; max-width: 50%;}
 h3{text-align: right;}
 h5{text-align: left;font-size: 20px; border: 1px solid black;margin-top:40px; margin-bottom: 40px;
     padding-top:20px; padding-bottom: 2Opx;
     margin-left: 40px; margin-right: 120px;display: inline-block;}
 
-#glcint{width:400px}
-#glcneww{width:550px}
-#a200loc{width: 450px}
+#glcint{ height:auto;width: 100%;}
+#glcneww{max-width: 100%; height: auto;}
+#a200loc{width: 450px;max-width: 100%; height: auto;}
 #descglc{text-align: left;font-family: 'Times New Roman', Times, serif; font-size: 20px;}
 .h4{display: flex;
     background-color: rgb(0, 0, 0);
     justify-content: space-between;
 
 }
-.container{display:flex; 
-    justify-content: space-between;
+.container{display: flex;
+    justify-content: space-around;
 }
+.containerhead{display: flex;
+    justify-content: space-between;
+    max-width: 50%;
+}
+
+#container-chata{justify-content:space-around;
+    display: flex; background-color: black;
+}
+
 
 .container2{display: flex;
 justify-content: space-between;}
 
 h5{font-size: 30px;}
 #desca200{font-family: 'Times New Roman', Times, serif;}
-#algunosmodelos{font-size: 35px;font-weight: bold;text-align: left;}
+#algunosmodelos{font-size: 35px;font-weight: bold;text-align: left;max-width: 100%; height: auto;}
