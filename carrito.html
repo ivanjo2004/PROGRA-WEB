@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet" type="text/css">
+    <title>Carrito de compras</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <header id="header">
+        <h1>CARRITO</h1> 
+        <img class="carrito" src="./images/carrito.png" alt="carrito">
+    </header>
+    <div id="contenedor" class="contenedor">
+        <div>
+            <img src="./images/mercedes-benz_x-class-7.jpeg" alt="producto 1">
+            <div class="informacion">
+                <p>Mercedes - Benz Clase X</p>
+                <p class="precio">$80.000<span></span></p>
+                <button class="comprar" data-precio="80000">Comprar</button>
+            </div>
+        </div>
+        <div>
+            <img src="./images/A-200-21.webp" alt="producto 2">
+            <div class="informacion">
+                <p>Mercedes - Benz A200</p>                   
+                <p class="precio">$60.000<span></span></p>
+                <button class="comprar" data-precio="60000">Comprar</button>
+            </div>
+        </div>
+        <div>
+            <img src="./images/glcneww.jpeg" alt="producto 3">
+            <div class="informacion">
+                <p>Mercedes - Benz GLC300</p>                   
+                <p class="precio">$70.000<span></span></p>
+                <button class="comprar" data-precio="70000">Comprar</button>
+            </div>
+        </div>
+    </div>
+    <br>
+    <div class="totalfin">
+    <div><p id="totaly">TOTAL: <span id="total">0</span></p></div>
+    <div><a href="./index.html"><button id="finalizar">FINALIZAR COMPRA</button></a></div>
+    </div>
+
+    <script defer src="script.js"></script>
+</body>
+
+</html>

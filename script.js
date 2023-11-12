@@ -1,21 +1,15 @@
-function sumar(num1,num2){
-    return num1 + num2;
-}
-console.log(sumar(1,2))
 
-function imc (peso,altura){
-    let imc = peso/altura;
-    return imc
-}
-console.log(imc(60,1.6))
+document.addEventListener("DOMContentLoaded", function () {
+    const botonesComprar = document.querySelectorAll(".comprar");
+    const totalElemento = document.getElementById("total");
+    let total = 0;
+  
+    botonesComprar.forEach((boton) => {
+      boton.addEventListener("click", function () {
+        const precio = parseFloat(boton.getAttribute("data-precio"));
+        total += precio;
+        totalElemento.textContent = `$${total.toFixed(2)}`;
+      });
+    });
+  });
 
-function comparar (a,b){
-    return a==b,a===b
-}
-console.log(comparar("5",5))
-
-function par (num){
-    let par;
-    par=num%2;
-    
-}
